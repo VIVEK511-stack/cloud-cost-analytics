@@ -1,0 +1,32 @@
+Cloud Cost Executive Summary
+========================================
+
+Total cloud spend: $24,018.80
+Average daily cost: $3,002.35
+Analysis period: 80 records
+
+Top 3 services by cost:
+  1. EC2: $16,419.70 (68.4%)
+  2. RDS: $3,430.00 (14.3%)
+  3. EBS: $1,646.50 (6.9%)
+
+
+============================================================
+
+Cost Trend Analysis
+========================================
+
+Cloud costs are trending UPWARD with an increase of $525.02 per day. At this rate, monthly costs could increase by $15,750.71. Immediate action is recommended to control costs.
+
+============================================================
+
+Service Cost Breakdown
+========================================
+
+EC2 dominates cloud spending at $16,419.70 (68.4% of total). This is the primary driver of cloud costs and should be the focus of optimization efforts.
+RDS is a significant cost contributor at $3,430.00 (14.3% of total). Regular review of this service is recommended.
+EBS accounts for $1,646.50 (6.9% of total).
+CloudWatch accounts for $940.20 (3.9% of total).
+S3 accounts for $656.60 (2.7% of total).
+VPC accounts for $605.00 (2.5% of total).
+Lambda accounts for $320.80 (1.3% of total).

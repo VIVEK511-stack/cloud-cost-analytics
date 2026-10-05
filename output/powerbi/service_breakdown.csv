@@ -1,0 +1,8 @@
+Service,Total Cost
+EC2,16419.7
+RDS,3430.0
+EBS,1646.5
+CloudWatch,940.2
+S3,656.6
+VPC,605.0
+Lambda,320.8

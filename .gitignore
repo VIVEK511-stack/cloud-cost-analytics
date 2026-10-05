@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.jsonl
+pipeline.log
+*.log
+.pytest_cache/

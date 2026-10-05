@@ -1,0 +1,87 @@
+{
+  "insights": [
+    {
+      "category": "Trend",
+      "severity": "Warning",
+      "title": "Increasing Cost Trend",
+      "description": "Costs are increasing by $525.02 per day. Consider reviewing resource usage."
+    },
+    {
+      "category": "Concentration",
+      "severity": "Warning",
+      "title": "High Service Concentration",
+      "description": "EC2 accounts for 68.4% of total costs. Consider diversifying or optimizing this service."
+    },
+    {
+      "category": "Anomaly",
+      "severity": "Critical",
+      "title": "1 Cost Anomalies Detected",
+      "description": "Found 1 records with unusually high costs. Review these for potential waste or errors."
+    },
+    {
+      "category": "Efficiency",
+      "severity": "Info",
+      "title": "Cost per Unit Analysis",
+      "description": "Highest cost per unit: EC2 at $1.0092/unit. Consider rightsizing."
+    },
+    {
+      "category": "Distribution",
+      "severity": "Info",
+      "title": "Regional Cost Distribution",
+      "description": "us-east-1 accounts for 90.3% of costs. Consider multi-region optimization."
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "High",
+      "category": "Rightsizing",
+      "action": "Review EC2 instance sizes",
+      "potential_saving": "$0.30/unit (30% reduction)",
+      "effort": "Medium"
+    },
+    {
+      "priority": "High",
+      "category": "Rightsizing",
+      "action": "Review RDS instance sizes",
+      "potential_saving": "$0.13/unit (30% reduction)",
+      "effort": "Medium"
+    },
+    {
+      "priority": "High",
+      "category": "Rightsizing",
+      "action": "Review S3 instance sizes",
+      "potential_saving": "$0.03/unit (30% reduction)",
+      "effort": "Medium"
+    },
+    {
+      "priority": "High",
+      "category": "Pricing Model",
+      "action": "Purchase Reserved Instances for EC2",
+      "potential_saving": "$6567.88 (40% RI discount)",
+      "effort": "Low"
+    },
+    {
+      "priority": "Medium",
+      "category": "Scheduling",
+      "action": "Schedule non-prod resources to stop on weekends",
+      "potential_saving": "$3186.26 (70% weekend reduction)",
+      "effort": "Low"
+    },
+    {
+      "priority": "Medium",
+      "category": "Storage",
+      "action": "Implement S3 lifecycle policies and EBS snapshot cleanup",
+      "potential_saving": "$575.77 (25% storage reduction)",
+      "effort": "Low"
+    },
+    {
+      "priority": "High",
+      "category": "Governance",
+      "action": "Implement mandatory cost allocation tags",
+      "potential_saving": "Improved cost visibility and accountability",
+      "effort": "Medium"
+    }
+  ],
+  "anomaly_model_accuracy": 0.7916666666666666,
+  "cost_predictor_r2": 0.2407
+}

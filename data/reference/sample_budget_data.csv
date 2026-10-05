@@ -1,0 +1,11 @@
+account_name,team_name,project_name,environment,budget_period,budget_start_date,budget_end_date,budget_amount,currency
+Production,Engineering,Platform,Prod,Monthly,2024-01-01,2024-01-31,15000,USD
+Production,Data,Analytics,Prod,Monthly,2024-01-01,2024-01-31,5000,USD
+Development,Engineering,Platform,Dev,Monthly,2024-01-01,2024-01-31,3000,USD
+Production,Data,ML-Pipeline,Prod,Monthly,2024-01-01,2024-01-31,2000,USD
+Staging,QA,Platform,UAT,Monthly,2024-01-01,2024-01-31,2000,USD
+Production,Engineering,Platform,Prod,Monthly,2024-02-01,2024-02-29,15000,USD
+Production,Data,Analytics,Prod,Monthly,2024-02-01,2024-02-29,5000,USD
+Development,Engineering,Platform,Dev,Monthly,2024-02-01,2024-02-29,3000,USD
+Production,Data,ML-Pipeline,Prod,Monthly,2024-02-01,2024-02-29,2000,USD
+Staging,QA,Platform,UAT,Monthly,2024-02-01,2024-02-29,2000,USD

@@ -1,0 +1,56 @@
+{
+  "total_spend": 24018.8,
+  "average_daily_cost": 3002.35,
+  "total_records": 80,
+  "date_range": "2024-01-01 00:00:00 to 2024-01-08 00:00:00",
+  "monthly_spend": [
+    {
+      "Month": "2024-01",
+      "Total Cost": 24018.8
+    }
+  ],
+  "top_services": [
+    {
+      "Service": "EC2",
+      "Total Cost": 16419.7,
+      "% of Total": 68.36
+    },
+    {
+      "Service": "RDS",
+      "Total Cost": 3430.0,
+      "% of Total": 14.28
+    },
+    {
+      "Service": "EBS",
+      "Total Cost": 1646.5,
+      "% of Total": 6.86
+    },
+    {
+      "Service": "CloudWatch",
+      "Total Cost": 940.2,
+      "% of Total": 3.91
+    },
+    {
+      "Service": "S3",
+      "Total Cost": 656.6,
+      "% of Total": 2.73
+    }
+  ],
+  "top_regions": [
+    {
+      "Region": "us-east-1",
+      "Total Cost": 21696.9
+    },
+    {
+      "Region": "us-west-2",
+      "Total Cost": 2321.9
+    }
+  ],
+  "mom_growth": [
+    {
+      "Month": "2024-01",
+      "Total Cost": 24018.8,
+      "MoM Growth %": NaN
+    }
+  ]
+}
